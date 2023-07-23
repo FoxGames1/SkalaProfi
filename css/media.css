@@ -64,8 +64,7 @@
       height: 15px;
    }
    .block-2{
-      flex-wrap: wrap;
-      height: 900px;
+      height: 270px;
    }
    .footer{
       margin-top: 6080px;
@@ -207,7 +206,7 @@
     top: -300px;
     left: -70px;
     height: 225px;
-    width: 773px;
+    width: 778px;
     background-color: #E2AD32;
     z-index: 2;
     display: flex;
@@ -323,7 +322,7 @@
       display: none;
    }
    .footer{
-      margin-top: 4600px;
+      margin-top: 4740px;
    }
    .footer-content-content .info{
       margin: 0 0 0 5%;
@@ -331,7 +330,7 @@
 }
 @media (max-width: 1140px){
       .header-top-contacts p{
-      font-size: 20px;
+      font-size: 16px;
    }
 }
 
@@ -364,10 +363,7 @@
    .slick-list{
       height: 350px;
    }
-   .footer{
-      margin-top: 6490px;
-      height: 235px;
-   }
+
    .footer-content{
       height: 200px;
    }
@@ -407,7 +403,7 @@
 
 
 
-@media (max-width: 320px){
+@media (max-width: 360px){
 
    .header{
       height: 125px;
@@ -416,7 +412,7 @@
       height: 55px;
    }
    .navigation{
-      width: 319px;
+      width: 360px;
       top: -300px;
        left: -60px;
        height: 225px;
@@ -438,7 +434,7 @@
       font-size: 20px;
    }
    .header__burger{
-      left: 220px;
+      left: 300px;
    }
    .header-content-menu{
       top: 95px;
@@ -459,7 +455,7 @@
       width: 200px;
    }
    .main-content p{
-      width: 255px;
+      width: 285px;
    }
    .slider img{
       width: 245px;
@@ -478,6 +474,15 @@
       width: 250px;
       font-size: 28px;
    }
+   .block-2{
+      height: 825px;
+   }
+   .footer-content-content{
+      width: 100%;
+   }
+   .footer-content-content .info{
+      margin: 0 0 0 5%;
+   }
    .zag{
       font-size: 36px;
    }
@@ -494,8 +499,11 @@
    .header-top-contacts{
       width: 245px;
        flex-wrap: wrap;
-       margin: 0px 0px 0 10px;
-       gap: 2px;
+       margin: 0px 0px 0 30px;
+      column-gap: 2px;
+   }
+   .header-top-contacts p{
+      font-size: 15px;
    }
    .header-top-contacts img{
       display: none;
@@ -542,6 +550,11 @@
    }
    .text_information{
       font-size: 24px;
+   }
+
+   .footer{
+      margin-top: 5570px;
+      height: 235px;
    }
 
 
